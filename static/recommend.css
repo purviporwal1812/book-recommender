@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+    background-color: #FAFFC5;
+    color: #3A3960;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar-custom {
+    background-color: #3A3960;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar-custom .navbar-brand {
+    color: #FAFFC5;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-custom .nav a {
+    color: #FAFFC5;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.navbar-custom .nav a:hover {
+    background-color: #5E686D;
+    border-radius: 5px;
+}
+
+/* Container */
+.container {
+    margin-top: 30px;
+}
+
+/* Heading */
+.heading {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #5E686D;
+}
+
+/* Search Box */
+.search-box {
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #5E686D;
+    background-color: #A9BFA8;
+    color: #3A3960;
+    width: 100%;
+}
+
+/* Button */
+.btn-custom {
+    background-color: #5E686D;
+    color: #FAFFC5;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.btn-custom:hover {
+    background-color: #3A3960;
+}
+
+/* Book Cards */
+.book-card {
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #5E686D;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.4);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Text Styles */
+.book-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #FAFFC5;
+}
+
+.author {
+    font-size: 16px;
+    color: #A9BFA8;
+}
